@@ -67,7 +67,7 @@ public class TarefaView extends javax.swing.JFrame {
         tfNome.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         tfNome.setText("Nome Da Tarefa");
 
-        jTnome.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jTnome.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jTnome.addActionListener(this::jTnomeActionPerformed);
 
         bttCadastro.setBackground(new java.awt.Color(255, 255, 255));
@@ -102,6 +102,7 @@ public class TarefaView extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Lista de Tarefas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 14))); // NOI18N
 
+        jList1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jScrollPane2.setViewportView(jList1);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
