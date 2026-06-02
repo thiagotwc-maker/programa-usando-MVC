@@ -21,7 +21,7 @@ public class TarefaModel {
 
     @Override
     public String toString() {
-        return "TarefaModel{" + "nome=" + nome + ", concluida=" + concluida + '}';
+        return "Tarefa: " + "nome: " + nome + ", concluida: " + concluida ;
     }
    
    
